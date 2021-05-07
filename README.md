@@ -6,7 +6,7 @@ Multi arch docker with go
 
 To build locally (single arch)…
 ```shell
-docker buildx build --load --platform linux/amd64 --progress plain --nocache -t mad:bxamd .
+docker buildx build --load --platform linux/amd64 --progress plain --no-cache -t mad:bxamd .
 docker run --rm --platform=linux/amd64 mad:bxamd
 ```
 
